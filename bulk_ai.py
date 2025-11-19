@@ -54,9 +54,9 @@ def gpt(topic: str, max_children: int = 10):
 
 def get_keywords(search_question, country="en-US"):
     "Go to kwrds.ai and get your api there"
-    url = "##ADD-YOUR-KEY-HERE###"
+    url = "https://keywordresearch.api.kwrds.ai/keywords-with-volumes"
     headers = {
-        "X-API-KEY": "c5276875-c61a-4e6d-9666-3fade2bbfe8b",
+        "X-API-KEY": "##Add-Key##",
         "Content-Type": "application/json",
     }
     payload = {"search_question": search_question, "search_country": country}
