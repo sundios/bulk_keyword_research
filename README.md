@@ -4,8 +4,7 @@ A Python tool that automates keyword research, traffic estimation, and content i
 
 Built by [@kburchardt](https://www.linkedin.com/in/konradburchardt/)
 
-<video src="video.mov" width="640" autoplay loop controls muted></video>
-
+https://github.com/sundios/bulk_keyword_research/assets/1234567/abcdef12-3456-7890-abcd-ef1234567890
 
 ---
 
