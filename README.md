@@ -4,8 +4,7 @@ A Python tool that automates keyword research, traffic estimation, and content i
 
 Built by [@kburchardt](https://www.linkedin.com/in/konradburchardt/)
 
-https://github.com/sundios/bulk_keyword_research/blob/main/video.mov
-
+![KWRDS Topic Research Screenshot](topic_research.png)
 ---
 
 ## 💡 Overview
