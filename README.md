@@ -1,10 +1,10 @@
-# SEO Keyword Generator (OpenAI + KWRDS)
+# SEO Keyword Generator (OpenAI + kwrds.ai)
 
-A Python tool that automates keyword research, traffic estimation, and content ideation using **OpenAI** and **KWRDS.ai** APIs.
+A Python tool that automates keyword research, traffic estimation, and content ideation using **OpenAI** and **kwrds.ai** APIs.
 
-Built by [@kburchardt](https://www.linkedin.com/in/konradburchardt/)
+Built by [@kburchardt](https://www.linkedin.com/in/konradburchardtseo/)
 
-![KWRDS Topic Research Screenshot](topic_research.png)
+![kwrds.ai Topic Research Screenshot](topic_research.png)
 ---
 
 ## 💡 Overview
@@ -19,14 +19,14 @@ This tool helps content strategists, SEO teams, and marketers automatically gene
 
 1. **Choose a topic** — e.g. “Netflix”.  
 2. **OpenAI** generates up to 50 short-tail, related topic ideas (child pages).  
-3. **KWRDS.ai** retrieves live keyword search volumes for each topic.  
+3. **kwrds.ai** retrieves live keyword search volumes for each topic.  
 4. The script merges everything into a single Excel workbook (`seo_keywords.xlsx`) with:
    - One **Index sheet** summarizing volumes and potential traffic.
    - One sheet per child topic with raw keyword data.
 
 You can also manually add extra topics to include in the analysis.
 
-If you prefer a no-code interface, the same logic is available via the **[KWRDS Topic Research tool](https://www.kwrds.ai/topic-research)**.
+If you prefer a no-code interface, the same logic is available via the **[kwrds.ai Topic Research tool](https://www.kwrds.ai/topic-research)**.
 
 ---
 
@@ -36,7 +36,7 @@ If you prefer a no-code interface, the same logic is available via the **[KWRDS 
 
 - **Python 3.10+**
 - **OpenAI API key** ([get one here](https://platform.openai.com))
-- **KWRDS.ai API key** ([get one here](https://www.kwrds.ai/api))
+- **kwrds.ai API key** ([get one here](https://www.kwrds.ai/api))
 
 ### Installation
 
@@ -76,7 +76,7 @@ You’ll be prompted for:
 - Any additional pages to include (comma-separated)
 
 Once complete, the script will:
-- Fetch live keyword volumes from KWRDS.ai
+- Fetch live keyword volumes from kwrds.ai
 - Estimate potential traffic (10%) and signups (4%)
 - Save everything to `seo_keywords.xlsx`
 
@@ -110,7 +110,7 @@ main() → gpt() → merge_pages() → progress_fetch_keywords(get_keywords)
 
 ## 🔗 Related resources
 
-- 🔑 Get your **KWRDS.ai API key:** [https://www.kwrds.ai/api](https://www.kwrds.ai/api)
+- 🔑 Get your **kwrds.ai API key:** [https://www.kwrds.ai/api](https://www.kwrds.ai/api)
 - 💻 Try the **Live UI version:** [https://www.kwrds.ai/topic-research](https://www.kwrds.ai/topic-research)
 - 🧰 OpenAI documentation: [https://platform.openai.com/docs](https://platform.openai.com/docs)
 
